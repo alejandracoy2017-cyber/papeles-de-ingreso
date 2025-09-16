@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página con Formulario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 12px 20px;
+            font-size: 18px;
+            border: none;
+            background-color: #0078d7;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    <p>Haz clic en el botón para ir al formulario:</p>
+    
+    <button onclick="irAlFormulario()">Ir al Formulario</button>
+
+    <script>
+        function irAlFormulario() {
+            // Reemplaza el link con tu URL real del formulario de Google
+            window.location.href = "https://forms.gle/MHcjoedPt7Coh1bt9";
+        }
+    </script>
+</body>
+</html>
